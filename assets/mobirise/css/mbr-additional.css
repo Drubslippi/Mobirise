@@ -1991,6 +1991,7 @@ body {
 }
 .cid-qCn1T2ltyz H2 {
   text-align: center;
+  color: #ffffff;
 }
 .cid-qCn1T2ltyz P {
   text-align: center;
@@ -3797,7 +3798,8 @@ body {
 .cid-qDyd07iGBe {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #149dcc;
+  background: linear-gradient(45deg, #149dcc, #cccccc);
 }
 .cid-qDyd07iGBe .media-container-row {
   flex-direction: row-reverse;
@@ -3822,13 +3824,89 @@ body {
 .cid-qDyd07iGBe .mbr-text,
 .cid-qDyd07iGBe .mbr-section-btn {
   text-align: left;
-  color: #000000;
+  color: #ffffff;
 }
 .cid-qDyd07iGBe H1 {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-qDyd07iGBe H3 {
-  color: #000000;
+  color: #ffffff;
+  text-align: right;
+}
+.cid-qDHhSADSXb {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #cccccc;
+  background: linear-gradient(45deg, #cccccc, #149dcc);
+}
+.cid-qDHhSADSXb .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qDHhSADSXb .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qDHhSADSXb .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qDHhSADSXb .mbr-text {
+    text-align: center;
+  }
+}
+.cid-qDHhSADSXb .mbr-text,
+.cid-qDHhSADSXb .mbr-section-btn {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-qDHhSADSXb H1 {
+  color: #ffffff;
+}
+.cid-qDHhSADSXb H3 {
+  color: #ffffff;
+  text-align: right;
+}
+.cid-qDHotiGTfR {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #149dcc;
+  background: linear-gradient(45deg, #149dcc, #cccccc);
+}
+.cid-qDHotiGTfR .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qDHotiGTfR .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qDHotiGTfR .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qDHotiGTfR .mbr-text {
+    text-align: center;
+  }
+}
+.cid-qDHotiGTfR .mbr-text,
+.cid-qDHotiGTfR .mbr-section-btn {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-qDHotiGTfR H1 {
+  color: #ffffff;
+}
+.cid-qDHotiGTfR H3 {
+  color: #ffffff;
   text-align: right;
 }
 .cid-qCEvEEs96i .navbar {
