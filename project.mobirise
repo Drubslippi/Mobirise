@@ -713,7 +713,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -730,8 +730,8 @@
                 "overlayOpacity": "0.6"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/snakesandladders-1792x1350.png",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
