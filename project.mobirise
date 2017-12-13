@@ -730,7 +730,7 @@
                 "overlayOpacity": "0.6"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/snakesandladders-1792x1350.png",
+                "image": "@PROJECT_PATH@/assets/images/snakesandladders-1792x1350.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
