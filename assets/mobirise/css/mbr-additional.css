@@ -1995,6 +1995,7 @@ body {
 }
 .cid-qCn1T2ltyz P {
   text-align: center;
+  color: #ffffff;
 }
 .cid-qCnCYaOLoG {
   padding-top: 90px;
@@ -3798,8 +3799,7 @@ body {
 .cid-qDyd07iGBe {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #149dcc;
-  background: linear-gradient(45deg, #149dcc, #cccccc);
+  background-color: #55b4d4;
 }
 .cid-qDyd07iGBe .media-container-row {
   flex-direction: row-reverse;
@@ -3836,8 +3836,7 @@ body {
 .cid-qDHhSADSXb {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #cccccc;
-  background: linear-gradient(45deg, #cccccc, #149dcc);
+  background-color: #0f7699;
 }
 .cid-qDHhSADSXb .media-container-row {
   flex-direction: row-reverse;
@@ -3874,8 +3873,7 @@ body {
 .cid-qDHotiGTfR {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #149dcc;
-  background: linear-gradient(45deg, #149dcc, #cccccc);
+  background-color: #0f7699;
 }
 .cid-qDHotiGTfR .media-container-row {
   flex-direction: row-reverse;
@@ -3908,6 +3906,54 @@ body {
 .cid-qDHotiGTfR H3 {
   color: #ffffff;
   text-align: right;
+}
+.cid-qDJJPrH729 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #073b4c;
+}
+.cid-qDJJPrH729 .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qDJJPrH729 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qDJJPrH729 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qDJJPrH729 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-qDJJPrH729 .mbr-text,
+.cid-qDJJPrH729 .mbr-section-btn {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-qDJJPrH729 H1 {
+  color: #ffffff;
+}
+.cid-qDJJPrH729 H3 {
+  color: #ffffff;
+  text-align: right;
+}
+.cid-qDJQ1DxsTu {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qDJQ1DxsTu .mbr-section-subtitle {
+  color: #000000;
+}
+.cid-qDJQ1DxsTu .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-qCEvEEs96i .navbar {
   background: #ffffff;

@@ -21,7 +21,7 @@
   
 </head>
 <body>
-<section class="menu cid-qCEvBwpRkc" once="menu" id="menu2-u" data-rv-view="116">
+<section class="menu cid-qCEvBwpRkc" once="menu" id="menu2-u" data-rv-view="164">
 
     
 
@@ -53,7 +53,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.co/a">free web builder</a></section><section class="header3 cid-qDCD9ZR9MP" id="header3-1f" data-rv-view="113">
+<section class="engine"><a href="https://mobirise.co/f">free bootstrap builder</a></section><section class="header3 cid-qDCD9ZR9MP" id="header3-1f" data-rv-view="161">
 
     
 
@@ -78,7 +78,7 @@
 
 </section>
 
-<section class="header5 cid-qDydaSpDn4" id="header5-1b" data-rv-view="118">
+<section class="header5 cid-qDydaSpDn4" id="header5-1b" data-rv-view="166">
 
     
 
@@ -100,7 +100,7 @@
     
 </section>
 
-<section class="header3 cid-qDyd07iGBe" id="header3-1a" data-rv-view="121">
+<section class="header3 cid-qDyd07iGBe" id="header3-1a" data-rv-view="169">
 
     
 
@@ -125,7 +125,7 @@
 
 </section>
 
-<section class="header3 cid-qDHhSADSXb" id="header3-1g" data-rv-view="124">
+<section class="header3 cid-qDHhSADSXb" id="header3-1g" data-rv-view="172">
 
     
 
@@ -138,7 +138,7 @@
             </div>
 
             <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-5">Passo 1: Algoritmo de Dikjstra</h1>
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Passo 1: Base do algoritmo</h1>
                 <h3 class="mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style display-7">Primitivas 'relax' e 'extractMin' implementadas</h3>
                 <div class="mbr-section-text mbr-white pb-3 ">
                     <p class="mbr-text mbr-fonts-style display-7"></p><p>O funcionamento do algoritmo é embasado por duas funções: 'relax' e 'extractMin'. Simplificadamente, essas são responsáveis por encontrar os menores caminhos entre os vértices e os inserir na árvore de caminhos mínimos respectivamente. Em outras palavras, assim que se sabe a menor distância até uma cidade, ela é adicionada a árvores que contém as menores distâncias entre todas as cidades.</p><p></p>
@@ -150,7 +150,7 @@
 
 </section>
 
-<section class="header3 cid-qDHotiGTfR" id="header3-1h" data-rv-view="127">
+<section class="header3 cid-qDHotiGTfR" id="header3-1h" data-rv-view="175">
 
     
 
@@ -163,16 +163,59 @@
             </div>
 
             <div class="media-content">
-                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Passo 2:</h1>
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Passo 2: Algoritmo de Dijkstra</h1>
                 <h3 class="mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style display-7">Algoritmo de Dijkstra</h3>
                 <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-7">O dataset utilizado representa um grafo com 59 cidades da Alemanha ocidental e suas distâncias. Em termos da teoria dos grafos, temos um grafo com arestas ponderadas, a distância entre duas cidades é dada por certo 'peso'. Como já foi dito, o objetivo inicial é de&nbsp;implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G. Isso representa um caminho por todas as cidades percorrendo a menor distância possível.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">Com as primitivas bem construídas o algoritmo se torna simples de ser implementado. A variável&nbsp;λ(v), que denota o menor custo de entrada para o vértice v, assim como&nbsp;π(v), predecessor de v na árvore, foi modelada por meio de dicionários. Dessa forma, tem-se total controle de cada vértice e seu atributo (custo ou predecessor). O algoritmo inicia essas variáveis e entra em um loop que só termina quando a árvore satisfaz a condição de conter todos os vértices do grafo.</p>
                 </div>
                 
             </div>
         </div>
     </div>
 
+</section>
+
+<section class="header3 cid-qDJJPrH729" id="header3-1i" data-rv-view="178">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-figure" style="width: 150%;">
+                <img src="assets/images/diferenas-arvores-561x143.png" alt="Mobirise" title="" media-simple="true">
+            </div>
+
+            <div class="media-content">
+                <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2">Passo 3: Árvores de caminhos mínimos</h1>
+                <h3 class="mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style display-7">Diferenças entre árvores com Dijkstra single e multi source</h3>
+                <div class="mbr-section-text mbr-white pb-3 ">
+                    <p class="mbr-text mbr-fonts-style display-7">Nesse último passo, executou-se o algoritmo duas vezes, uma com λ(0) = 0 <em>(arvore_singleSource)</em>, e outra com&nbsp;λ(0) = 0 e&nbsp;λ(50) = 0 <em>(arvore_multiSource)</em>. Dessa forma, é possível&nbsp;definir de onde as subárvores irão iniciar o crescimento. Fica claro pela imagem que a disputa altera o crescimento da árvore.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section info1 cid-qDJQ1DxsTu" id="info1-1j" data-rv-view="181">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center content-row">
+            <div class="media-container-column title col-12 col-lg-7 col-md-6">
+                <h3 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5"><p>Autores: Daniel Lippi, Igor Rozani, Lucas Hochleitner<br></p></h3>
+                <h2 class="align-left mbr-bold mbr-fonts-style display-2">DOWNLOAD DO CÓDIGO FONTE&nbsp;</h2>
+            </div>
+            <div class="media-container-column col-12 col-lg-3 col-md-4">
+                <div class="mbr-section-btn align-right py-4"><a class="btn btn-primary display-4" href="https://mega.nz/#!BLphkbRL!lCdnj3Cy-SfK3wIqPL1moKsElINejo8KqGj3ejBJyC8">DOWNLOAD</a></div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
